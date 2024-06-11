@@ -1,12 +1,12 @@
-import {} from "react";
+import { useState } from "react";
+import { Input } from "./components";
+import useCurrencyInfo from "./hooks/useCurrencyInfo";
 import "./App.css";
-import { Input } from "./components/Input";
 
 function App() {
   return (
     <>
       <h1>hello</h1>
-      <Input />
     </>
   );
 }
